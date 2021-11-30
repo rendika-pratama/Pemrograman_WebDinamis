@@ -6,6 +6,7 @@
 	<tr><td>Password</td><td> : <input name='password' type='password'</td></tr>
 	<tr><td>Nama Lengkap</td><td> : <input name='nama' type='text'</td></tr>
 	<tr><td>Email</td><td> : <input name='email' type='text'</td></tr>
+	<tr><td>No. Telepon</td><td> : <input name='notelp' type='text'</td></tr>
 	<tr><td colspan=2><input type='submit' value='SIMPAN'</td></tr>
 	</table>
 	</form>";
