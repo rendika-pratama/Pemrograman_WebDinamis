@@ -24,8 +24,10 @@
 	<table border="1">
 		<tr>
 			<th>No</th>
+			<th>Nama</th>
 			<th>NIM</th>
 			<th>Kode MK</th>
+			<th>Nama MK</th>
 			<th>Nilai</th>
 		</tr>
 		<?php
@@ -43,7 +45,9 @@
 			 	<tr>
 			 		<td><?php echo $no++; ?></td>
 			 		<td><?php echo $r['NIM']; ?></td>
+			 		<td><?php echo $r['Nama']; ?></td>
 			 		<td><?php echo $r['KodeMK']; ?></td>
+			 		<td><?php echo $r['NamaMK']; ?></td>
 			 		<td><?php echo $r['Nilai']; ?></td>
 			 	</tr>
 		<?php } ?>
