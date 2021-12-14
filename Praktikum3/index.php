@@ -12,6 +12,7 @@
 </head>
 <body>
 	<a href="tambah.php">Tambah Data Baru</a><br><br>
+	<a href="cetak.php">Cetak Data</a><br><br>
 	<table width="80%" border="1">
 		<tr>
 			<th>NIM</th>
