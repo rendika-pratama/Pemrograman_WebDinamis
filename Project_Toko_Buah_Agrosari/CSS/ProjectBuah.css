@@ -1,0 +1,104 @@
+/* Index Atau Halaman Utama */
+#Link_Profile{
+	color: white;
+	text-decoration: none;
+}
+#Link_Text{
+	color: black;
+	text-decoration: none;
+}
+#Foto_Profile{
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+}
+#Link_Aksi{
+	text-decoration: none;
+	color: blue;
+}
+#Box{
+	box-sizing: border-box;
+	width: 70%;
+}
+html{
+	position: relative;
+	min-height: 100%;
+}
+.Body_Utama{
+	background-image: url(Background/jeruk.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	margin: 0 0 100px;
+}
+.Body_Utama .Navbar{
+	width: 100%;
+	border-bottom: 2px solid #ff3300;
+	background-color: #66ff66;
+}
+.Body_Utama .Content{
+	height: 100%;
+	color: white;
+	margin: 120px auto;
+}
+.Body_Utama .Footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 70px;
+	width: 100%;
+	background: #333;
+	color: #fff;
+	line-height: 23px;
+}
+
+/* User */
+/* Layout Buah */
+.Body_Utama .Content_Buah{
+	height: 100%;
+}
+.Body_Utama .Content_Buah .Tabel{
+	background-color: white;
+	margin: 50px auto;
+}
+/* Layout Pemesanan */
+.Body_Utama .Content_Pemesanan{
+	margin: 10px auto;
+}
+.Body_Utama .Content_Pemesanan .Form_Pemesanan{
+	width: 300px;
+	padding: 10px;
+	border-color: #9933ff;
+	border-radius: 10px;
+	background-color: white;
+}
+
+/* Admin */
+/* Layout Login */
+.Body_Utama .Atas{
+	height: 36px;
+}
+.Body_Utama .Login{
+	margin: 50px auto;
+	width: 350px;
+	padding: 30px;
+}
+.Body_Utama .Login .Kotak{
+	border-color: #9933ff;
+	border-radius: 10px;
+	background-color: white;
+}
+
+/* Tambah, Edit, Pesan Data Buah */
+#Kotak_Output{
+	border: none;
+}
+.Body_Utama .Edit{
+	margin: 50px auto;
+	width: 350px;
+	padding: 30px;
+}
+.Body_Utama .Edit .Form{
+	border-color: #9933ff;
+	border-radius: 10px;
+	background-color: white;
+}
